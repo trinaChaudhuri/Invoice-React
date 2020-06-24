@@ -1,18 +1,28 @@
 import React from "react";
+import "./invoice.css";
 export default class Invoice extends React.Component {
   render() {
     return (
       <>
-        <div>Create Invoice</div>
-        <div>Invoice details</div>
-        <form>
-          <input type="text" placeholder="123456" />
-          <input type="text" placeholder="22 June 2020" />
-          <select>
-            <option>dev</option>
-            <option>web dev</option>
-          </select>
-        </form>
+       
+          <div className="title">Create Invoice</div>
+          <div>Invoice details</div>
+          
+          <form>
+          <div className="invoice-container">
+            <input type="text" placeholder="123456" className="invoice-input" />
+            <input
+              type="text"
+              placeholder="22 June 2020"
+              className="invoice-input"
+            />
+            <select className="invoice-dropdown">
+              <option>dev</option>
+              <option>web dev</option>
+            </select>
+            </div>
+          </form>
+      
         <div>
           <div> Client details</div>
           <div>
@@ -27,6 +37,7 @@ export default class Invoice extends React.Component {
         <div>
           <div>Add Items</div>
           <form>
+          <div >
             <input type="text" placeholder="Item Name" />
             <input type="text" placeholder="Item Description" />
             <input type="number" placeholder="Rate per hour" />
@@ -34,6 +45,7 @@ export default class Invoice extends React.Component {
             <input type="number" placeholder="Tax" />
             <input type="number" placeholder="Flat Amount" />
             <input type="submit" name="Add" value="Add" />
+            </div>
           </form>
         </div>
         <div>
@@ -98,11 +110,11 @@ export default class Invoice extends React.Component {
           </div>
         </div>
         <div>
-            <div>Other Payable Mode</div>
-            <select>
-                <option>Online</option>
-                <option>UPI</option>
-            </select>
+          <div>Other Payable Mode</div>
+          <select>
+            <option>Online</option>
+            <option>UPI</option>
+          </select>
         </div>
       </>
     );

@@ -1,0 +1,18 @@
+.title{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+.invoice-input{
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 120px;
+    height: 20px;
+}
+.invoice-dropdown{
+    background-color: aliceblue;
+    margin-left: auto;
+}
+.invoice-container{
+display: flex;
+flex-direction: row;
+}
