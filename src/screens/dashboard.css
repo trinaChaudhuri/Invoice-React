@@ -1,0 +1,66 @@
+.invoice-list {
+  justify-content: space-evenly;
+  color: blue;
+  margin: 5% 0;
+  padding: 10px 0px 30px 0;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: "center";
+  align-items: "center";
+  background-color: darkgray;
+  border-radius: 10px;
+  box-shadow: 1px 3px 1px #9e9e9e;
+}
+.invoice-list-odd {
+  justify-content: space-evenly;
+  color: blue;
+  margin: 5% 0;
+  padding: 10px 0px 30px 0;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: "center";
+  align-items: "center";
+  border-radius: 10px;
+  box-shadow: 1px 3px 1px #9e9e9e;
+}
+
+.container {
+  max-width: 500px;
+  flex: auto;
+}
+.modal {
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+}
+.modal-label {
+  display: flex;
+  flex-direction: row;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+}
+.title{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item-list{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 9px;
+}
+.filters{
+    margin-left: auto;
+}
+.filter-dropdown{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
